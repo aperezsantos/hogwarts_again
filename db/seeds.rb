@@ -21,3 +21,12 @@ ProfessorStudent.create(student_id: harry, professor_id: lupin)
 ProfessorStudent.create(student_id: malfoy, professor_id: hagarid)
 ProfessorStudent.create(student_id: malfoy, professor_id: lupin)
 ProfessorStudent.create(student_id: longbottom, professor_id: snape)
+
+# Professor Student connections
+
+# harry = snape.students.create(name: "Harry Potter" , age: 11 , house: "Gryffindor" )
+# harry = snape.students.create(name: "Harry Potter" , age: 11 , house: "Gryffindor" )
+# longbottom = hagarid.students.create(name: "Neville Longbottom" , age: 11 , house: "Gryffindor" )
+# malfoy = hagarid.students.create(name: "Draco Malfoy" , age: 12 , house: "Slytherin" )
+# harry = lupin.students.create(name: "Harry Potter" , age: 11 , house: "Gryffindor" )
+# malfoy = lupin.students.create(name: "Draco Malfoy" , age: 12 , house: "Slytherin" )

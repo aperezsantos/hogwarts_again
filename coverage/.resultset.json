@@ -207,12 +207,44 @@
           1,
           null,
           1,
+          1,
           null
         ]
       },
       "/Users/aperezsantos/turing/2_mod/exercises/hogwarts_again/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/aperezsantos/turing/2_mod/exercises/hogwarts_again/spec/features/professors_index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -306,6 +338,10 @@
           1,
           1,
           null,
+          null,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -317,6 +353,6 @@
         ]
       }
     },
-    "timestamp": 1591564214
+    "timestamp": 1591567248
   }
 }
