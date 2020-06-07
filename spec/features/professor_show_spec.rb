@@ -6,12 +6,12 @@ RSpec.describe "Pressor Show Page" do
       hagarid = Professor.create(name: "Rubus Hagarid", age: 38 , specialty: "Care of Magical Creatures")
       lupin = Professor.create(name: "Remus Lupin", age: 49 , specialty: "Defense Against The Dark Arts")
 
-      harry = hagarid.students.create(name: "Harry Potter" , age: 11 , house: "Gryffindor" )
-      malfoy = hagarid.students.create(name: "Draco Malfoy" , age: 12 , house: "Slytherin" )
-      longbottom = lupin.students.create(name: "Neville Longbottom" , age: 11 , house: "Gryffindor" )
+      harry = Student.create(name: "Harry Potter" , age: 11 , house: "Gryffindor")
+      malfoy = Student.create(name: "Draco Malfoy" , age: 12 , house: "Slytherin")
+      longbottom = Student.create(name: "Neville Longbottom" , age: 11 , house: "Gryffindor")
 
-      ProfessorStudent.create(student_id: harry, professor_id: hagarid)
-      ProfessorStudent.create(student_id: malfoy, professor_id: hagarid)
+      ProfessorStudent.create(student: harry, professor: hagarid)
+      ProfessorStudent.create(student: malfoy, professor: hagarid)
 
       visit "/professors/#{hagarid.id}"
 
@@ -22,7 +22,7 @@ RSpec.describe "Pressor Show Page" do
         expect(page).to have_content(harry.name)
         expect(page).to have_content(harry.age)
       end
-      
+
       within("#student-#{malfoy.id}") do
         expect(page).to have_content(malfoy.name)
         expect(page).to have_content(malfoy.age)
