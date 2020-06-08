@@ -3,10 +3,10 @@
 
 <% @professor.students.each do |student| %>
   <section id="student-<%= student.id %>">
-    <ul>
-      <li><%= student.name %></li>
-      <li><%= student.age %></li>
-    </ul>
+    <h3>Student: <%= student.name %></h3>
+      <ul>
+        <li>Age: <%= student.age %></li>
+      </ul>
   </section>
 <% end %>
 
