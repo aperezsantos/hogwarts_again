@@ -22,9 +22,9 @@ RSpec.describe "Students Index Page" do
     end
 
     it "I see a list of students and the number of professors each student has" do
-      expect(page).to have_content("Harry Potter: 3")
-      expect(page).to have_content("Draco Malfoy: 2")
-      expect(page).to have_content("Neville Longbottom: 1")
+      expect(page).to have_content("Harry Potter has 3 professor(s).")
+      expect(page).to have_content("Draco Malfoy has 2 professor(s).")
+      expect(page).to have_content("Neville Longbottom has 1 professor(s).")
     end
 
     it "I see students listed alphabetically" do
