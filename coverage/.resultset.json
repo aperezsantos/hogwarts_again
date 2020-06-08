@@ -208,6 +208,8 @@
           null,
           1,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -217,7 +219,7 @@
           null
         ]
       },
-      "/Users/aperezsantos/turing/2_mod/exercises/hogwarts_again/spec/features/professors_index_spec.rb": {
+      "/Users/aperezsantos/turing/2_mod/exercises/hogwarts_again/spec/features/professors/professors_index_spec.rb": {
         "lines": [
           1,
           null,
@@ -236,6 +238,45 @@
           1,
           1,
           null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/aperezsantos/turing/2_mod/exercises/hogwarts_again/spec/features/students/students_index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
           null,
           null,
           null,
@@ -351,8 +392,17 @@
           1,
           null
         ]
+      },
+      "/Users/aperezsantos/turing/2_mod/exercises/hogwarts_again/app/controllers/students_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1591568808
+    "timestamp": 1591581125
   }
 }
